@@ -1,6 +1,4 @@
-# limitlessled
-
-## [LimitlessLED][limitless] LED bulbs controller.
+# [LimitlessLED][limitless] LED bulbs controller.
 
 The `limitlessled` module provides a driver to connect and communicate over the network with the WiFi controller device. 
 
@@ -32,17 +30,22 @@ leds.all().ledsOn(function(){
 ## Documentation
 _(Coming soon)_
 
+
 ## Examples
-_(Coming soon)_
+You can check out the [examples][examples] directory.
+
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
+
 ## Release History
-_(Nothing yet)_
+- v0.0.1: Initial release. 
+
 
 ## License
 Copyright (c) 2015 goliatone  
 Licensed under the MIT license.
 
-[limitless]:limitlessled.com
+[limitless]: http://limitlessled.com
+[examples]: https://github.com/goliatone/limitlessled/tree/master/examples
