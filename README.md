@@ -8,6 +8,8 @@ Note that the WiFi bridge should be connected to your LAN. Once it's configured 
 
 This package provides a programmatic interface for the WiFi bridge.
 
+Currently only the **Bright Dual White Light Bulb** is supported.
+
 -----
 
 ## Getting Started
@@ -38,6 +40,13 @@ You can check out the [examples][examples] directory.
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
+## Roadmap
+- Add support for promises
+- Fluid interface
+- Add `after` method to execute methods with a delay
+- State management: ie: cool/warm level (as command issued, unable to read state from bulbs)
+- Events
+- Support for the RGBW Color and White LED Light bulbs
 
 ## Release History
 - v0.0.1: Initial release. 
