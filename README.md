@@ -30,7 +30,7 @@ leds.all().ledsOn(function(){
 
 
 ## Documentation
-_(Coming soon)_
+You can check out the [documentation][documentation] directory.
 
 
 ## Examples
@@ -58,3 +58,4 @@ Licensed under the MIT license.
 
 [limitless]: http://limitlessled.com
 [examples]: https://github.com/goliatone/limitlessled/tree/master/examples
+[documentation]: https://github.com/goliatone/limitlessled/tree/master/docs
