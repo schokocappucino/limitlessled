@@ -1,6 +1,6 @@
 # limitlessled
 
-LimitlessLED controller
+[LimitlessLED][limitless] LED bulbs controller.
 
 ## Getting Started
 Install the module with: `npm install limitlessled`
@@ -25,3 +25,5 @@ _(Nothing yet)_
 ## License
 Copyright (c) 2015 goliatone  
 Licensed under the MIT license.
+
+[limitless]:limitlessled.com
