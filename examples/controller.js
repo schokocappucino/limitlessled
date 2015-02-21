@@ -12,14 +12,19 @@ function cool(){
     count++;
     console.log('COOL', count);
     if(count === max) return done('cool');
-    leds.coolerColor(cool);
+    setTimeout(function(){
+        leds.coolerColor(cool);
+    }, 100);
 }
 
 function warm(){
     count++;
     console.log('warm', count);
     if(count === max) return done('warm');
-    leds.warmerColor(warm);
+    setTimeout(function(){
+        leds.warmerColor(warm);
+    }, 100);
+
 }
 
 function done(state){
