@@ -21,7 +21,7 @@
       "url": "https://github.com/goliatone/limitlessled/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/limitlessled",
+  "main": "index",
   "engines": {
     "node": ">= 0.10.0"
   },
