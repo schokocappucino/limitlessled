@@ -10,6 +10,9 @@ This package provides a programmatic interface for the WiFi bridge.
 
 Currently only the **Bright Dual White Light Bulb** is supported.
 
+
+The driver uses UDP to communicate with the bridge, packets are dropped. 
+
 -----
 
 ## Getting Started
