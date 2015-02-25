@@ -6,6 +6,17 @@ var leds = new LedController({
     host: '192.168.1.144'
 });
 
+
+
+leds.all().ledsOn();
+
+
+// leds.all().ledsOff();
+
+// leds.all().ledsOff();
+// leds.all().ledsOff();
+return
+
 var count = 0;
 var max = 100;
 function cool(){
